@@ -1,18 +1,5 @@
 {
-  "timestamp": "2026-02-11T07:42:11.424686Z",
-  "alerts": [
-    {
-      "crypto_id": "leo-token",
-      "symbol": "LEO",
-      "name": "LEO Token",
-      "price_change_percent": -5.28,
-      "previous_price": 8.72,
-      "current_price": 8.26,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "LEO Token dropped 5.28% in 15 minutes"
-    }
-  ],
-  "total_alerts": 1
+  "timestamp": "2026-02-11T08:31:03.056362Z",
+  "alerts": [],
+  "total_alerts": 0
 }
