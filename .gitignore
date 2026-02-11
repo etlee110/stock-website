@@ -1,0 +1,53 @@
+# Logs
+logs/*.log
+*.log
+
+# Data backups (keep only latest)
+data/crypto-data-raw.json
+data/*-backup-*.json
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment variables (if added later)
+.env
+.env.local
+.env.*.local
+
+# Node modules (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if added later)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# Keep these
+!docs/data/*.json
+!data/.gitkeep
+!logs/.gitkeep
