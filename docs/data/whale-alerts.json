@@ -1,18 +1,5 @@
 {
-  "timestamp": "2026-02-11T10:35:08.308701Z",
-  "alerts": [
-    {
-      "crypto_id": "binancecoin",
-      "symbol": "BNB",
-      "name": "BNB",
-      "price_change_percent": -5.15,
-      "previous_price": 620.87,
-      "current_price": 588.87,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "BNB dropped 5.15% in 15 minutes"
-    }
-  ],
-  "total_alerts": 1
+  "timestamp": "2026-02-11T11:32:14.316744Z",
+  "alerts": [],
+  "total_alerts": 0
 }
