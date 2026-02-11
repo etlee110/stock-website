@@ -1,30 +1,5 @@
 {
-  "timestamp": "2026-02-11T15:15:22.418677Z",
-  "alerts": [
-    {
-      "crypto_id": "monero",
-      "symbol": "XMR",
-      "name": "Monero",
-      "price_change_percent": -6.07,
-      "previous_price": 355.67,
-      "current_price": 334.09,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "Monero dropped 6.07% in 15 minutes"
-    },
-    {
-      "crypto_id": "ethereum",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "price_change_percent": -5.44,
-      "previous_price": 2018.84,
-      "current_price": 1908.95,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "Ethereum dropped 5.44% in 15 minutes"
-    }
-  ],
-  "total_alerts": 2
+  "timestamp": "2026-02-11T16:37:06.239734Z",
+  "alerts": [],
+  "total_alerts": 0
 }
