@@ -1,53 +1,53 @@
 {
-  "timestamp": "2026-02-12T17:12:54.209646Z",
+  "timestamp": "2026-02-12T18:10:13.609583Z",
   "alerts": [
     {
       "crypto_id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "price_change_percent": -7.7,
+      "price_change_percent": -7.52,
       "previous_price": 355.67,
-      "current_price": 328.27,
+      "current_price": 328.91,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Monero dropped 7.7% in 15 minutes"
+      "alert_message": "Monero dropped 7.52% in 15 minutes"
     },
     {
       "crypto_id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "price_change_percent": -6.32,
+      "price_change_percent": -6.3,
       "previous_price": 83.34,
-      "current_price": 78.07,
+      "current_price": 78.09,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Solana dropped 6.32% in 15 minutes"
-    },
-    {
-      "crypto_id": "ethereum",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "price_change_percent": -5.45,
-      "previous_price": 2018.84,
-      "current_price": 1908.75,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "Ethereum dropped 5.45% in 15 minutes"
+      "alert_message": "Solana dropped 6.3% in 15 minutes"
     },
     {
       "crypto_id": "bitcoin-cash",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
-      "price_change_percent": -5.08,
+      "price_change_percent": -5.32,
       "previous_price": 525.48,
-      "current_price": 498.78,
+      "current_price": 497.55,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Bitcoin Cash dropped 5.08% in 15 minutes"
+      "alert_message": "Bitcoin Cash dropped 5.32% in 15 minutes"
+    },
+    {
+      "crypto_id": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price_change_percent": -5.0,
+      "previous_price": 2018.84,
+      "current_price": 1917.85,
+      "severity": "medium",
+      "emoji": "\ud83d\udfe1",
+      "time_interval": "15min",
+      "alert_message": "Ethereum dropped 5.0% in 15 minutes"
     }
   ],
   "total_alerts": 4
