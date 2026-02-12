@@ -1,54 +1,30 @@
 {
-  "timestamp": "2026-02-12T20:48:10.039895Z",
+  "timestamp": "2026-02-12T21:40:14.126612Z",
   "alerts": [
     {
       "crypto_id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "price_change_percent": -8.56,
+      "price_change_percent": -7.5,
       "previous_price": 355.67,
-      "current_price": 325.24,
+      "current_price": 329.0,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Monero dropped 8.56% in 15 minutes"
+      "alert_message": "Monero dropped 7.5% in 15 minutes"
     },
     {
       "crypto_id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "price_change_percent": -7.48,
+      "price_change_percent": -7.24,
       "previous_price": 83.34,
-      "current_price": 77.11,
+      "current_price": 77.31,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Solana dropped 7.48% in 15 minutes"
-    },
-    {
-      "crypto_id": "bitcoin",
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "price_change_percent": -5.14,
-      "previous_price": 68971,
-      "current_price": 65424,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "Bitcoin dropped 5.14% in 15 minutes"
-    },
-    {
-      "crypto_id": "ethereum",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "price_change_percent": -5.03,
-      "previous_price": 2018.84,
-      "current_price": 1917.21,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "Ethereum dropped 5.03% in 15 minutes"
+      "alert_message": "Solana dropped 7.24% in 15 minutes"
     }
   ],
-  "total_alerts": 4
+  "total_alerts": 2
 }
