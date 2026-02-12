@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-02-12T21:40:14.126612Z",
+  "timestamp": "2026-02-12T22:04:05.256497Z",
   "alerts": [
     {
       "crypto_id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "price_change_percent": -7.5,
+      "price_change_percent": -7.42,
       "previous_price": 355.67,
-      "current_price": 329.0,
+      "current_price": 329.28,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Monero dropped 7.5% in 15 minutes"
+      "alert_message": "Monero dropped 7.42% in 15 minutes"
     },
     {
       "crypto_id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "price_change_percent": -7.24,
+      "price_change_percent": -7.27,
       "previous_price": 83.34,
-      "current_price": 77.31,
+      "current_price": 77.28,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Solana dropped 7.24% in 15 minutes"
+      "alert_message": "Solana dropped 7.27% in 15 minutes"
     }
   ],
   "total_alerts": 2
