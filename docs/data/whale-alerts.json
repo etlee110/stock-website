@@ -1,18 +1,30 @@
 {
-  "timestamp": "2026-02-12T14:55:03.664675Z",
+  "timestamp": "2026-02-12T16:00:18.439680Z",
   "alerts": [
     {
       "crypto_id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price_change_percent": 7.68,
+      "price_change_percent": 6.47,
       "previous_price": 29.05,
-      "current_price": 31.28,
+      "current_price": 30.93,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Hyperliquid surged 7.68% in 15 minutes"
+      "alert_message": "Hyperliquid surged 6.47% in 15 minutes"
+    },
+    {
+      "crypto_id": "monero",
+      "symbol": "XMR",
+      "name": "Monero",
+      "price_change_percent": -5.35,
+      "previous_price": 355.67,
+      "current_price": 336.65,
+      "severity": "medium",
+      "emoji": "\ud83d\udfe1",
+      "time_interval": "15min",
+      "alert_message": "Monero dropped 5.35% in 15 minutes"
     }
   ],
-  "total_alerts": 1
+  "total_alerts": 2
 }
