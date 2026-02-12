@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-02-12T09:28:41.729611Z",
+  "timestamp": "2026-02-12T10:26:47.134106Z",
   "alerts": [
     {
       "crypto_id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price_change_percent": 5.37,
+      "price_change_percent": 5.71,
       "previous_price": 29.05,
-      "current_price": 30.61,
+      "current_price": 30.71,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Hyperliquid surged 5.37% in 15 minutes"
+      "alert_message": "Hyperliquid surged 5.71% in 15 minutes"
     }
   ],
   "total_alerts": 1
