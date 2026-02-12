@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-02-12T11:25:15Z",
+  "timestamp": "2026-02-12T12:03:06Z",
   "data": [
     {
       "id": "bitcoin",
       "symbol": "btc",
       "name": "Bitcoin",
-      "current_price": 68012,
+      "current_price": 68016,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 1.5191,
-      "total_volume": 50886401118,
-      "market_cap": 1358350138929,
-      "last_updated": "2026-02-12T11:25:11.755Z"
+      "price_change_percentage_24h": 1.49423,
+      "total_volume": 51354681143,
+      "market_cap": 1360439065644,
+      "last_updated": "2026-02-12T12:03:00.997Z"
     },
     {
       "id": "ethereum",
       "symbol": "eth",
       "name": "Ethereum",
-      "current_price": 1994.64,
+      "current_price": 1986.91,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 2.23701,
-      "total_volume": 22725922358,
-      "market_cap": 240476836891,
-      "last_updated": "2026-02-12T11:25:11.127Z"
+      "price_change_percentage_24h": 1.76626,
+      "total_volume": 22666716290,
+      "market_cap": 239957666672,
+      "last_updated": "2026-02-12T12:03:00.706Z"
     },
     {
       "id": "tether",
       "symbol": "usdt",
       "name": "Tether",
-      "current_price": 0.999445,
+      "current_price": 0.999649,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": -0.01262,
-      "total_volume": 81019724432,
-      "market_cap": 183913184457,
-      "last_updated": "2026-02-12T11:25:10.812Z"
+      "price_change_percentage_24h": 0.00531,
+      "total_volume": 81195934828,
+      "market_cap": 183952896069,
+      "last_updated": "2026-02-12T12:02:58.882Z"
     },
     {
       "id": "ripple",
@@ -40,65 +40,65 @@
       "name": "XRP",
       "current_price": 1.4,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 1.90588,
-      "total_volume": 3011674078,
-      "market_cap": 85076070589,
-      "last_updated": "2026-02-12T11:25:09.296Z"
+      "price_change_percentage_24h": 1.73139,
+      "total_volume": 2997638234,
+      "market_cap": 85352902565,
+      "last_updated": "2026-02-12T12:02:58.584Z"
     },
     {
       "id": "binancecoin",
       "symbol": "bnb",
       "name": "BNB",
-      "current_price": 617.72,
+      "current_price": 617.53,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 4.40282,
-      "total_volume": 1332876798,
-      "market_cap": 84174662679,
-      "last_updated": "2026-02-12T11:25:11.432Z"
+      "price_change_percentage_24h": 4.24836,
+      "total_volume": 1318933562,
+      "market_cap": 84211890615,
+      "last_updated": "2026-02-12T12:03:00.613Z"
     },
     {
       "id": "usd-coin",
       "symbol": "usdc",
       "name": "USDC",
-      "current_price": 0.999859,
+      "current_price": 0.999883,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": -0.00661,
-      "total_volume": 15253357019,
-      "market_cap": 73290902570,
-      "last_updated": "2026-02-12T11:25:11.102Z"
+      "price_change_percentage_24h": -0.00325,
+      "total_volume": 14905356594,
+      "market_cap": 73268912035,
+      "last_updated": "2026-02-12T12:02:58.611Z"
     },
     {
       "id": "solana",
       "symbol": "sol",
       "name": "Solana",
-      "current_price": 81.75,
+      "current_price": 81.83,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 0.84144,
-      "total_volume": 4315410029,
-      "market_cap": 46399367806,
-      "last_updated": "2026-02-12T11:25:09.530Z"
+      "price_change_percentage_24h": 0.78433,
+      "total_volume": 4306892624,
+      "market_cap": 46471835731,
+      "last_updated": "2026-02-12T12:02:58.402Z"
     },
     {
       "id": "tron",
       "symbol": "trx",
       "name": "TRON",
-      "current_price": 0.278186,
+      "current_price": 0.278154,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 1.44702,
-      "total_volume": 643490931,
-      "market_cap": 26347818310,
-      "last_updated": "2026-02-12T11:25:10.601Z"
+      "price_change_percentage_24h": 1.5427,
+      "total_volume": 632795547,
+      "market_cap": 26347258158,
+      "last_updated": "2026-02-12T12:02:58.346Z"
     },
     {
       "id": "dogecoin",
       "symbol": "doge",
       "name": "Dogecoin",
-      "current_price": 0.093799,
+      "current_price": 0.09386,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 4.23619,
-      "total_volume": 1129684042,
-      "market_cap": 15809015806,
-      "last_updated": "2026-02-12T11:25:12.289Z"
+      "price_change_percentage_24h": 4.06997,
+      "total_volume": 1099541695,
+      "market_cap": 15831952642,
+      "last_updated": "2026-02-12T12:02:58.353Z"
     },
     {
       "id": "figure-heloc",
@@ -115,111 +115,111 @@
       "id": "whitebit",
       "symbol": "wbt",
       "name": "WhiteBIT Coin",
-      "current_price": 51.19,
+      "current_price": 51.25,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 1.31146,
-      "total_volume": 68289384,
-      "market_cap": 10940284268,
-      "last_updated": "2026-02-12T11:25:10.985Z"
+      "price_change_percentage_24h": 1.41094,
+      "total_volume": 68286848,
+      "market_cap": 10953715871,
+      "last_updated": "2026-02-12T12:02:58.023Z"
     },
     {
       "id": "bitcoin-cash",
       "symbol": "bch",
       "name": "Bitcoin Cash",
-      "current_price": 513.33,
+      "current_price": 514.12,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 0.30147,
-      "total_volume": 336376352,
-      "market_cap": 10266049037,
-      "last_updated": "2026-02-12T11:25:13.395Z"
+      "price_change_percentage_24h": 0.21537,
+      "total_volume": 328173268,
+      "market_cap": 10278553870,
+      "last_updated": "2026-02-12T12:02:58.360Z"
     },
     {
       "id": "cardano",
       "symbol": "ada",
       "name": "Cardano",
-      "current_price": 0.267483,
+      "current_price": 0.267303,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 5.20551,
-      "total_volume": 420845735,
-      "market_cap": 9838633189,
-      "last_updated": "2026-02-12T11:25:14.235Z"
+      "price_change_percentage_24h": 4.79069,
+      "total_volume": 420821655,
+      "market_cap": 9834756632,
+      "last_updated": "2026-02-12T12:02:58.346Z"
     },
     {
       "id": "usds",
       "symbol": "usds",
       "name": "USDS",
-      "current_price": 0.998836,
+      "current_price": 0.99903,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": -0.11669,
-      "total_volume": 94606759,
-      "market_cap": 9657611846,
-      "last_updated": "2026-02-12T11:25:10.608Z"
+      "price_change_percentage_24h": -0.07943,
+      "total_volume": 83533601,
+      "market_cap": 9647347809,
+      "last_updated": "2026-02-12T12:02:58.058Z"
     },
     {
       "id": "leo-token",
       "symbol": "leo",
       "name": "LEO Token",
-      "current_price": 8.46,
+      "current_price": 8.47,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 1.64445,
-      "total_volume": 1256538,
-      "market_cap": 7793009468,
-      "last_updated": "2026-02-12T11:25:12.483Z"
+      "price_change_percentage_24h": 1.8373,
+      "total_volume": 1256935,
+      "market_cap": 7802212800,
+      "last_updated": "2026-02-12T12:02:58.042Z"
     },
     {
       "id": "hyperliquid",
       "symbol": "hype",
       "name": "Hyperliquid",
-      "current_price": 31.37,
+      "current_price": 31.58,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 9.53324,
-      "total_volume": 327810985,
-      "market_cap": 7425286079,
-      "last_updated": "2026-02-12T11:25:05.444Z"
+      "price_change_percentage_24h": 8.58642,
+      "total_volume": 322041653,
+      "market_cap": 7526410504,
+      "last_updated": "2026-02-12T12:02:58.106Z"
     },
     {
       "id": "canton-network",
       "symbol": "cc",
       "name": "Canton",
-      "current_price": 0.169913,
+      "current_price": 0.169877,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 4.44355,
-      "total_volume": 12755672,
-      "market_cap": 6410873106,
-      "last_updated": "2026-02-12T11:25:13.823Z"
+      "price_change_percentage_24h": 3.69525,
+      "total_volume": 13154975,
+      "market_cap": 6408068991,
+      "last_updated": "2026-02-12T12:02:58.049Z"
     },
     {
       "id": "ethena-usde",
       "symbol": "usde",
       "name": "Ethena USDe",
-      "current_price": 0.998537,
+      "current_price": 0.998426,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": -0.0032,
-      "total_volume": 154680693,
-      "market_cap": 6338362298,
-      "last_updated": "2026-02-12T11:25:11.518Z"
+      "price_change_percentage_24h": -0.03415,
+      "total_volume": 155309840,
+      "market_cap": 6337236874,
+      "last_updated": "2026-02-12T12:02:58.217Z"
     },
     {
       "id": "monero",
       "symbol": "xmr",
       "name": "Monero",
-      "current_price": 339.94,
+      "current_price": 339.43,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": -0.98903,
-      "total_volume": 82367063,
-      "market_cap": 6265880805,
-      "last_updated": "2026-02-12T11:25:06.919Z"
+      "price_change_percentage_24h": 0.58967,
+      "total_volume": 80338467,
+      "market_cap": 6262712153,
+      "last_updated": "2026-02-12T12:02:58.283Z"
     },
     {
       "id": "chainlink",
       "symbol": "link",
       "name": "Chainlink",
-      "current_price": 8.55,
+      "current_price": 8.56,
       "price_change_percentage_1h": null,
-      "price_change_percentage_24h": 3.81467,
-      "total_volume": 380019983,
-      "market_cap": 6053714703,
-      "last_updated": "2026-02-12T11:25:14.329Z"
+      "price_change_percentage_24h": 3.46758,
+      "total_volume": 363330714,
+      "market_cap": 6058825078,
+      "last_updated": "2026-02-12T12:02:58.459Z"
     }
   ]
 }
