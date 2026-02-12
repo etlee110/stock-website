@@ -1,30 +1,42 @@
 {
-  "timestamp": "2026-02-12T22:50:35.189814Z",
+  "timestamp": "2026-02-12T23:36:49.297006Z",
   "alerts": [
-    {
-      "crypto_id": "solana",
-      "symbol": "SOL",
-      "name": "Solana",
-      "price_change_percent": -7.12,
-      "previous_price": 83.34,
-      "current_price": 77.41,
-      "severity": "medium",
-      "emoji": "\ud83d\udfe1",
-      "time_interval": "15min",
-      "alert_message": "Solana dropped 7.12% in 15 minutes"
-    },
     {
       "crypto_id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "price_change_percent": -6.76,
+      "price_change_percent": -6.44,
       "previous_price": 355.67,
-      "current_price": 331.63,
+      "current_price": 332.77,
       "severity": "medium",
       "emoji": "\ud83d\udfe1",
       "time_interval": "15min",
-      "alert_message": "Monero dropped 6.76% in 15 minutes"
+      "alert_message": "Monero dropped 6.44% in 15 minutes"
+    },
+    {
+      "crypto_id": "solana",
+      "symbol": "SOL",
+      "name": "Solana",
+      "price_change_percent": -6.12,
+      "previous_price": 83.34,
+      "current_price": 78.24,
+      "severity": "medium",
+      "emoji": "\ud83d\udfe1",
+      "time_interval": "15min",
+      "alert_message": "Solana dropped 6.12% in 15 minutes"
+    },
+    {
+      "crypto_id": "hyperliquid",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "price_change_percent": 5.85,
+      "previous_price": 29.05,
+      "current_price": 30.75,
+      "severity": "medium",
+      "emoji": "\ud83d\udfe1",
+      "time_interval": "15min",
+      "alert_message": "Hyperliquid surged 5.85% in 15 minutes"
     }
   ],
-  "total_alerts": 2
+  "total_alerts": 3
 }
