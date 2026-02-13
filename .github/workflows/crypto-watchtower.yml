@@ -9,11 +9,20 @@ on:
     paths: ['.github/agents/**', '.github/workflows/crypto-watchtower.yml']
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -87,16 +96,16 @@ jobs:
           cp data/whale-alerts.json docs/data/
           python3 .github/scripts/generate-dashboard.py
       
-      - name: Deploy
-        run: |
-          echo "Deploying..."
-          git diff --quiet docs/ && echo "No changes" && exit 0
-          git add docs/
-          git commit -m "Update dashboard - $(date -u +%Y-%m-%dT%H:%M:%SZ)" -m "$(jq '.data|length' data/crypto-data.json) coins | $(jq '.total_alerts' data/whale-alerts.json) alerts"
-          git push origin main
-          echo "Deployed successfully"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
       
       - name: Verify
         run: |
-          sleep 30
-          curl -sf https://etlee110.github.io/stock-website > /dev/null && echo "✓ Live" || echo "⚠ Building..."
+          sleep 10
+          echo "✓ Deployed to ${{ steps.deployment.outputs.page_url }}"
